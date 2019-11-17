@@ -6,4 +6,4 @@
 @time:${DATE}${TIME}
 '''
 
-print("GelloWorld")
+print("HelloWorld")
