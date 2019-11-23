@@ -1,8 +1,7 @@
-import random
-def add(a,b):
-	''' return the answer of a added b'''
-	return a+b
-	
-a=random.randint(1,10)
-b=random.randint(1,10)
-print(add(a,b))
+import pytest
+
+def func(x):
+	return x+1
+
+def test_func(x):
+	assert func(3)==5
